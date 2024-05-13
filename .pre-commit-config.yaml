@@ -6,12 +6,10 @@ repos:
         entry: poetry run ruff check
         language: system
         args: [--fix]
-        types: [python]
       - id: ruff-format
         name: Ruff format
         entry: poetry run ruff format
         language: system
-        types: [python]
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
