@@ -12,6 +12,8 @@ pandas = "^2.2.2"
 scikit-learn = "^1.4.2"
 jupyter = "^1.0.0"
 matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+sns = "^0.1"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.4"
