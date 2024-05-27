@@ -15,6 +15,7 @@ matplotlib = "^3.8.4"
 seaborn = "^0.13.2"
 sns = "^0.1"
 statsmodels = "^0.14.2"
+openpyxl = "^3.1.2"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.4"
